@@ -75,12 +75,15 @@ a {
   height: 438px;
   margin-top: 6rem;
 }
-.header-btn {
+.section-btn {
   padding: 1.5rem 1.6rem;
 }
-.header-btn i {
+.section-btn i {
   margin-left: 0.9rem;
 }
+
+/* -------------players-area------------ */
+
 .players__area {
   margin-top: 3.5rem;
 }
@@ -94,7 +97,7 @@ a {
 }
 .players__area .players .player {
   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.089);
-  padding-bottom: 1.3rem;
+  padding-bottom: 0.8rem;
 }
 .players__area .players .player .player__img img {
   width: 300px;
@@ -111,4 +114,35 @@ a {
 .players__area .players .player .player__description .player__info p {
   color: #6c6c6c;
   font-weight: 400;
+}
+/* ------------copa-area--------- */
+
+.copa__area {
+  display: flex;
+  margin-top: 10rem;
+}
+.copa__left-container,
+.copa__right-container {
+  width: 50%;
+}
+.copa__left-container {
+  position: relative;
+}
+.copa__left-container .copa__left-content {
+  position: absolute;
+  top: 70px;
+  left: 217px;
+}
+.copa__left-container .copa__left-content h1 {
+  font-size: 48px;
+  color: #0a0826;
+  margin-bottom: 0.5rem;
+}
+.copa__left-container .copa__left-content p {
+  color: #6c6c6c;
+}
+.copa__right-container .copa__right-img img {
+  width: 567px;
+  height: 427px;
+  margin-left: 3rem;
 }
