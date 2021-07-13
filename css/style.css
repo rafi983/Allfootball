@@ -81,3 +81,34 @@ a {
 .header-btn i {
   margin-left: 0.9rem;
 }
+.players__area {
+  margin-top: 3.5rem;
+}
+.players__area .players {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  grid-template-rows: repeat(5, 1fr);
+  grid-row-gap: 5rem;
+  grid-column-gap: 3rem;
+  margin-left: 13.5rem;
+}
+.players__area .players .player {
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.089);
+  padding-bottom: 1.3rem;
+}
+.players__area .players .player .player__img img {
+  width: 300px;
+  height: 256px;
+  margin: 15px 0 0 15px;
+}
+.players__area .players .player .player__description {
+  width: 300px;
+  margin: 15px 0 0 15px;
+}
+.players__area .players .player .player__description .player__name {
+  margin-bottom: 1rem;
+}
+.players__area .players .player .player__description .player__info p {
+  color: #6c6c6c;
+  font-weight: 400;
+}
