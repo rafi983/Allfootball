@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
+/* ------------------common-css------------------------ */
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +7,14 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
 }
 /* -------header-style----------- */
 header {
@@ -24,13 +32,7 @@ header nav ul {
 header nav ul li {
   margin-left: 2rem;
 }
-ul,
-li {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-}
+
 .nav__link a {
   color: #fff;
 }
@@ -157,7 +159,7 @@ a {
   height: 427px;
   margin-left: 3rem;
 }
-/* -----------footer----------- */
+/* -----------footer-area----------- */
 
 footer {
   display: flex;
