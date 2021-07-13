@@ -46,6 +46,13 @@ a {
   font-weight: 400;
   border: none;
   outline: none;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+.btn:hover {
+  letter-spacing: 0.2rem;
+  background-color: purple;
+  color: #fff;
 }
 .btn i {
   margin-right: 0.7rem;
@@ -74,6 +81,10 @@ a {
   width: 556px;
   height: 438px;
   margin-top: 6rem;
+  transition: transform 0.3s;
+}
+.header__area .header__right-container img:hover {
+  transform: translateY(-0.4rem) scale(1.03);
 }
 .section-btn {
   padding: 1.5rem 1.6rem;
