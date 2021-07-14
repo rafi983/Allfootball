@@ -264,7 +264,7 @@ footer .footer__container .footer__logo img {
   }
 
   .header__area .header__right-container img {
-    margin: 40rem 0 0 -9rem;
+    margin: 40rem 0 0 -5rem;
     width: 470px;
   }
   .header__area {
@@ -293,7 +293,7 @@ footer .footer__container .footer__logo img {
     height: 248px;
   }
   .best__eleven {
-    margin-left: 1rem;
+    margin-left: 8rem;
   }
   .best__eleven h2 {
     width: 450px;
@@ -311,7 +311,7 @@ footer .footer__container .footer__logo img {
   }
   .sponsor__area,
   footer {
-    margin-left: 2rem;
+    margin-left: 6rem;
   }
 
   .sponsor__area h2 {
