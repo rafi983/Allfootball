@@ -160,6 +160,23 @@ header nav ul li {
   height: 427px;
   margin-left: 3rem;
 }
+/* ------------copa__eleven--------------- */
+.best__eleven {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+.best__eleven h2 {
+  font-size: 3.5rem;
+}
+.best__eleven-container img {
+  width: 680px;
+  height: 421px;
+  border: 0.8rem solid rgb(127, 219, 255);
+  border-radius: 10rem;
+  margin-top: 3rem;
+}
 
 /* ----------copa-gallery------------- */
 .copa__gallery {
