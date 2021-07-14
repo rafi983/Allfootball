@@ -84,10 +84,10 @@ header nav ul li {
   width: 556px;
   height: 438px;
   margin-top: 6rem;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
 }
 .header__area .header__right-container img:hover {
-  transform: translateY(-0.4rem) scale(1.03);
+  transform: translateY(-0.4rem) scale(1.03) skew(-2deg);
 }
 .section-btn {
   padding: 1.5rem 1.6rem;
@@ -190,9 +190,6 @@ header nav ul li {
 .copa__gallery-container img {
   opacity: 0.9;
   width: 100%;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
   -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
   transition: transform 0.5s, opacity 0.5s;
 }
