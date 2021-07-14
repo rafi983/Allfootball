@@ -263,9 +263,12 @@ footer .footer__container .footer__logo img {
     top: 40px;
     left: -67px;
   }
-
+  .header__area .header__left-container .header__left-content h1 {
+    font-size: 4rem;
+    margin-left: -1rem;
+  }
   .header__area .header__right-container img {
-    margin: 40rem 0 0 -5rem;
+    margin: 40rem 0 0 -10rem;
     width: 470px;
   }
   .header__area {
@@ -276,7 +279,7 @@ footer .footer__container .footer__logo img {
   .players__area .players {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 5rem;
+    margin-left: 2.5rem;
   }
   .players__area .players .player {
     width: 330px;
@@ -302,19 +305,21 @@ footer .footer__container .footer__logo img {
     margin-left: 3rem;
   }
   .best__eleven-container img {
-    width: 470px;
+    width: 400px;
   }
   .copa__gallery-container {
     display: grid;
     grid-template-columns: repeat(1, 330px);
     grid-row-gap: 2rem;
-    margin-left: 0.5rem;
+    margin-left: -1.8rem;
   }
   .sponsor__area,
   footer {
-    margin-left: 1rem;
+    margin: 3rem 4rem;
   }
-
+  .footer__logo img {
+    max-width: 15rem;
+  }
   .sponsor__area h2 {
     width: 430px;
     margin-left: 3rem;
