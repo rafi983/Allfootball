@@ -1,4 +1,6 @@
+/* @import "./responsive.css"; */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 /* ------------------common-css------------------------ */
 * {
   margin: 0;
@@ -237,4 +239,87 @@ footer .footer__container .footer__logo img {
 }
 .footer__others-content .copyright {
   margin-top: 1.3rem;
+}
+/* ------------responsiveness----------- */
+@media only screen and (max-width: 480px) {
+  header nav {
+    display: none;
+  }
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    width: 100%;
+    height: 1200px;
+    overflow-x: hidden;
+  }
+  .header__area .header__left-container {
+    position: relative;
+  }
+  .header__area .header__left-container .header__left-content {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+  }
+
+  .header__area .header__right-container img {
+    margin: 40rem 0 0 -6rem;
+  }
+  .header__area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .players__area .players {
+    /* max-width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10rem;
+  }
+  .players__area .players .player {
+    width: 330px;
+    height: 474px;
+  }
+  .copa__area {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0 5rem -2rem;
+  }
+  .copa__right-container .copa__right-img img {
+    margin-top: 50rem;
+    margin-left: 13rem;
+    width: 328px;
+    height: 248px;
+  }
+  .best__eleven {
+    margin-left: 14rem;
+  }
+  .best__eleven h2 {
+    width: 450px;
+    font-size: 2rem;
+    margin-left: 3rem;
+  }
+  .best__eleven-container img {
+    width: 470px;
+  }
+  .copa__gallery-container {
+    display: grid;
+    grid-template-columns: repeat(1, 330px);
+    grid-row-gap: 2rem;
+    margin-left: 6rem;
+  }
+  .sponsor__area,
+  footer {
+    margin-left: 12rem;
+  }
+  .sponsor__area h2 {
+    width: 430px;
+    margin-left: 3rem;
+    font-size: 3rem;
+  }
+  .sponsor__container {
+    display: flex;
+  }
 }
