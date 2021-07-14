@@ -288,7 +288,7 @@ footer .footer__container .footer__logo img {
   .copa__area {
     display: flex;
     flex-direction: column;
-    margin: 5rem 0 5rem -8rem;
+    margin: 5rem 0 5rem -10rem;
   }
   .copa__right-container .copa__right-img img {
     margin-top: 50rem;
@@ -297,7 +297,7 @@ footer .footer__container .footer__logo img {
     height: 248px;
   }
   .best__eleven {
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
   }
   .best__eleven h2 {
     width: 450px;
@@ -305,25 +305,25 @@ footer .footer__container .footer__logo img {
     margin-left: 3rem;
   }
   .best__eleven-container img {
-    width: 400px;
+    width: 350px;
   }
   .copa__gallery-container {
     display: grid;
     grid-template-columns: repeat(1, 330px);
     grid-row-gap: 2rem;
-    margin-left: -1.8rem;
+    margin-left: -3rem;
   }
   .sponsor__area,
   footer {
-    margin: 3rem 4rem;
+    margin: 3rem 5rem;
   }
   .footer__logo img {
     max-width: 15rem;
   }
   .sponsor__area h2 {
-    width: 430px;
+    width: 410px;
     margin-left: 3rem;
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
   .sponsor__container {
     display: flex;
